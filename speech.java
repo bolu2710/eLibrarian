@@ -13,11 +13,11 @@ public class speech extends mainapp {
 
         if (voice != null) {
             voice.allocate();
-             System.out.println("rate: " + voice.getRate());
+           //  System.out.println("rate: " + voice.getRate());
 
-             System.out.println("pitch: " + voice.getPitch());
+           //  System.out.println("pitch: " + voice.getPitch());
 
-             System.out.println("volume: " + voice.getVolume());
+           //  System.out.println("volume: " + voice.getVolume());
              
             boolean status = voice.speak("Welcome to the library. Proceed as you wish");
 
